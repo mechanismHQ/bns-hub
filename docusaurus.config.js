@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "BNS",
-  tagline: "The Bitcoin Naming System",
+  tagline: "The Bitcoin Name System",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -40,6 +40,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: "docs",
+          routeBasePath: "docs",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -60,6 +62,18 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "about",
+        path: "about",
+        routeBasePath: "about",
+        sidebarPath: require.resolve("./src/sidebarsAbout.ts"),
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -70,14 +84,21 @@ const config = {
         logo: {
           alt: "BNS Logo",
           src: "img/logo.svg",
+          href: "/docs/intro",
         },
         items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Tutorial",
-          },
+          // {
+          //   type: "doc",
+          //   docId: "intro",
+          //   position: "left",
+          //   label: "Docs",
+          // },
+          // {
+          //   to: "/about/about-bns",
+          //   docId: "about",
+          //   position: "left",
+          //   label: "About",
+          // },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/facebook/docusaurus",
@@ -129,7 +150,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Bitcoin Naming System`,
+        copyright: `Copyright © ${new Date().getFullYear()} Bitcoin Name System`,
       },
       prism: {
         theme: lightCodeTheme,
