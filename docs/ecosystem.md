@@ -31,6 +31,11 @@ sidebar_label: Ecosystem
 - [Xverse](https://xverse.app) - Bitcoin & Stacks wallet available for Chrome, iOS, and Android
 - [Ryder](https://ryder.id) - a powerful and secure hardware wallet
 
+## Communities
+
+- [BNS Dao Discord](https://discord.gg/Evxw4RBfaS)
+- [Stacks Discord](https://discord.com/invite/zrvWsQC)
+
 ## Apps using BNS
 
 The following apps are highlighted for their custom integrations of BNS, but there are many more that support signing in with your BNS name. [Discover more apps](https://www.stacks.co/explore/discover-apps)
