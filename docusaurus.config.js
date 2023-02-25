@@ -60,6 +60,21 @@ const config = {
         },
       }),
     ],
+    [
+      "redocusaurus",
+      {
+        specs: [
+          {
+            spec: "https://api.bns.xyz/documentation/json",
+            route: "/openapi",
+          },
+        ],
+        // theme: {
+        //   // Change with your site colors
+        //   primaryColor: "#1890ff",
+        // },
+      },
+    ],
   ],
 
   plugins: [
@@ -72,6 +87,15 @@ const config = {
         sidebarPath: require.resolve("./src/sidebarsAbout.ts"),
       },
     ],
+    // ["docusaurus-theme-openapi-docs", {}],
+    // [
+    //   "docusaurus-plugin-openapi",
+    //   {
+    //     id: "cos",
+    //     path: "external/openapi.yaml",
+    //     routeBasePath: "cos",
+    //   },
+    // ],
   ],
 
   themeConfig:

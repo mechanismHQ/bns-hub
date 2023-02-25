@@ -1,0 +1,19 @@
+extends:
+  - recommended
+
+# rules:
+#   no-unused-components: error
+
+theme:
+  # See https://redocly.com/docs/api-reference-docs/configuration/functionality/
+  openapi:
+    disableSearch: true
+    generateCodeSamples:
+      languages:
+        - lang: curl
+          label: curl
+    # See https://redocly.com/docs/api-reference-docs/configuration/theming/
+    # theme:
+    #   colors:
+    #     primary:
+    #       main: '#32329f'
