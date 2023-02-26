@@ -12,6 +12,7 @@ specifiers:
   docusaurus-theme-openapi-docs: ^1.5.2
   docusaurus-theme-redoc: ^1.6.0
   prism-react-renderer: ^1.3.5
+  prismjs: ^1.29.0
   react: ^17.0.2
   react-dom: ^17.0.2
   redocusaurus: ^1.6.0
@@ -26,6 +27,7 @@ dependencies:
   docusaurus-theme-openapi-docs: 1.5.2_qy6u2m3twle75rldwm5f2xep3a
   docusaurus-theme-redoc: 1.6.0_sfoxds7t5ydpegc3knd667wn6m
   prism-react-renderer: 1.3.5_react@17.0.2
+  prismjs: 1.29.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   redocusaurus: 1.6.0_sfoxds7t5ydpegc3knd667wn6m
