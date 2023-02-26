@@ -76,7 +76,9 @@ The next iteration was dubbed “BNS” and was launched on _date_. BNS introduc
 
 Stacks 2 was launched in January 2021. All the name logic and state for 27,000 names was ported to Clarity smart contracts. In June of 2021, the .btc namespace was born leading a massive surge in name registrations.
 
-<[https://twitter.com/muneeb/status/1400100021614284805](https://twitter.com/muneeb/status/1400100021614284805)>
+<a href="https://twitter.com/muneeb/status/1400100021614284805" target="_blank">
+  <img src="/img/btc-launch-tweet.png" style={{ maxWidth: '500px' }} />
+</a>
 
 **The numbers as of Feb 2023**
 
