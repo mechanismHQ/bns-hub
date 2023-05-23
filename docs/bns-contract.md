@@ -4,9 +4,7 @@ title: BNS Contract Documentation
 sidebar_label: BNS Contract Docs
 ---
 
-![](/img/satoshi-btc.png)
-
-<!-- # BNS Contract Documentation -->
+# BNS Contract Documentation
 
 The Bitcoin Name System (BNS) is implemented as a smart contract using Clarity.
 

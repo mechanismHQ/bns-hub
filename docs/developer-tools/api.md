@@ -1,5 +1,5 @@
 ---
-sidebar_label: API
+sidebar_label: BNS API
 ---
 
 # BNS API
@@ -7,6 +7,8 @@ sidebar_label: API
 **Production URL**: [`api.bns.xyz`](https://api.bns.xyz)
 
 [OpenAPI Documentation](https://api.bns.xyz/documentation)
+
+API Client: [`@bns-x/client`](./bns-client)
 
 Apps and wallets that want to integrate with BNS and BNSx can use the BNS API to easily fetch name and address information.
 

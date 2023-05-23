@@ -35,6 +35,7 @@ const sidebars = {
           label: "Protocol",
           collapsed: false,
           items: [
+            "bnsx/contracts",
             "bnsx/protocol-registry",
             "bnsx/protocol-wrapping",
             "bnsx/protocol-migrator",
@@ -55,8 +56,23 @@ const sidebars = {
       label: "Developer Tools",
       items: [
         "developer-tools/api",
+        "developer-tools/bns-client",
         "developer-tools/hiro-tools",
         "bns-contract",
+      ],
+    },
+    {
+      type: "category",
+      link: {
+        id: "dots/index",
+        type: "doc",
+      },
+      label: "Dots",
+      items: [
+        "dots/migrate-multiple-accounts",
+        "dots/renew",
+        "dots/unwrap-bnsx",
+        "dots/update-zonefile",
       ],
     },
   ],

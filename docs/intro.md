@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+title: The Bitcoin Name System
 ---
 
-# The Bitcoin Name System
+![](/img/satoshi-btc.png)
 
 Bitcoin Name System (BNS) is a network system that binds Stacks usernames
 to off-chain state without relying on any central points of control.

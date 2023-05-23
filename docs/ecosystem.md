@@ -7,6 +7,7 @@ sidebar_label: Ecosystem
 ## BNS Tools
 
 - [btc.us](https://btc.us) - register and manage .btc names
+- [Dots](https://dots.so) - manage your BNS names and migrate to BNSx. [Learn more](./dots)
 - [BNS Vision](https://bns-vision.btc.us) - deep BNS analytics
 - [BNS Market](https://bns-market.btc.us) - up-to-date marketplace analytics
 - [price.btc.us tools](https://price.btc.us/tools.html) - transfer, renew, query, and bulk register names
@@ -25,6 +26,11 @@ sidebar_label: Ecosystem
 - [price.btc.us](https://price.btc.us)
 - [Tradeport](https://www.tradeport.xyz)
 
+## Learn more about BNS
+
+- [Stacks documentation](https://docs.stacks.co/docs/stacks-academy/bns)
+- [myth.BTC](https://mythbtc.xyz/bns) - a huge guide for learning about and using BNS
+
 ## Wallets
 
 - [Hiro Wallet](https://wallet.hiro.so) - Bitcoin & Stacks app available as a browser extension and desktop app
@@ -35,6 +41,7 @@ sidebar_label: Ecosystem
 
 - [BNS Dao Discord](https://discord.gg/Evxw4RBfaS)
 - [Stacks Discord](https://discord.com/invite/zrvWsQC)
+- [Stacks forum - BNS Category](https://forum.stacks.org/c/bns/58)
 
 ## Apps using BNS
 
@@ -56,3 +63,4 @@ The following apps are highlighted for their custom integrations of BNS, but the
 
 - [`@stacks/bns`](https://github.com/hirosystems/stacks.js/tree/master/packages/bns) - a JS package for interacting with the BNS contract
 - [Stacks API](https://hirosystems.github.io/stacks-blockchain-api/#tag/Names)
+- [`zone-file`](https://www.npmjs.com/package/@fungible-systems/zone-file) - a JS package for interacting with zonefiles
