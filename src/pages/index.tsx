@@ -27,7 +27,6 @@ function useTotalNames(): number | undefined {
 }
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
   const total = useTotalNames();
 
   return (
@@ -72,7 +71,7 @@ function HomepageHeader() {
                 className="text-[var(--ifm-navbar-link-color)] underline underline-offset-2 text-lg"
                 href="/docs"
               >
-                Explore apps
+                Explore the BNS ecosystem
               </a>
             </p>
           </div>
