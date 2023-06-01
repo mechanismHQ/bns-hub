@@ -61,6 +61,8 @@ The following apps are highlighted for their custom integrations of BNS, but the
 
 ## Developer tools
 
-- [`@stacks/bns`](https://github.com/hirosystems/stacks.js/tree/master/packages/bns) - a JS package for interacting with the BNS contract
+- [BNS Client](/docs/developer-tools/bns-client) - a Typescript/Javascript package with deep functionality for fetching data and interacting with BNS contracts
+- [BNS API](/docs/developer-tools/api) - and API service that provides information for BNS, BNSx, and more.
+- [`@stacks/bns`](https://github.com/hirosystems/stacks.js/tree/master/packages/bns) - another JS package for interacting with the BNS contract
 - [Stacks API](https://hirosystems.github.io/stacks-blockchain-api/#tag/Names)
 - [`zone-file`](https://www.npmjs.com/package/@fungible-systems/zone-file) - a JS package for interacting with zonefiles
