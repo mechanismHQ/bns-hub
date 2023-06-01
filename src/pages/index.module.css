@@ -3,6 +3,12 @@
  * and scoped locally.
  */
 
+@tailwind base;
+
+p {
+  margin: 0;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;

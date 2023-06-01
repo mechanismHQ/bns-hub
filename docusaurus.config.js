@@ -143,6 +143,17 @@ const config = {
         ],
       }),
     ],
+    async function tailwind(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
     // ["docusaurus-theme-openapi-docs", {}],
     // [
     //   "docusaurus-plugin-openapi",
@@ -164,7 +175,8 @@ const config = {
         logo: {
           alt: "BNS Logo",
           src: "/img/stacks_with_interior_white_exterior_transparent.png",
-          href: "/docs/intro",
+          // href: "/docs/intro",
+          href: "/",
         },
         items: [
           {
