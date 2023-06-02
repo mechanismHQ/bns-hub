@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "mechanismHQ", // Usually your GitHub org/user name.
+  projectName: "bns-hub", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -86,62 +86,62 @@ const config = {
         sidebarPath: require.resolve("./src/sidebarsAbout.ts"),
       },
     ],
-    [
-      "@docusaurus/plugin-client-redirects",
-      /** @type {import('@docusaurus/plugin-client-redirects').PluginOptions} */
-      ({
-        redirects: [
-          {
-            from: "/dots/dots-faqs",
-            to: "/docs/dots",
-          },
-          {
-            from: "/dots/how-to-update-your-zonefile",
-            to: "/docs/dots/update-zonefile",
-          },
-          {
-            from: "/dots/how-to-unwrap-a-bnsx-name",
-            to: "/docs/dots/unwrap-bnsx",
-          },
-          {
-            from: "/dots/migrating-multiple-accounts",
-            to: "/docs/dots/migrate-multiple-accounts",
-          },
-          {
-            from: "/dots/renew-your-name",
-            to: "/docs/dots/renew",
-          },
-          {
-            from: "/bnsx-protocol/name-registry",
-            to: "/docs/bnsx/protocol-registry",
-          },
-          {
-            from: "/bnsx-protocol/wrapping-names",
-            to: "/docs/bnsx/protocol-wrapping",
-          },
-          {
-            from: "/bnsx-protocol/name-upgrader",
-            to: "/docs/bnsx/protocol-migrator",
-          },
-          {
-            from: "/integrate-bnsx/bns-api",
-            to: "/docs/developer-tools/api",
-          },
-          {
-            from: "/integrate-bnsx/integration-faqs",
-            to: "/docs/developer-tools/api",
-          },
-          {
-            from: "/integrate-bnsx/bns-client",
-            to: "/docs/developer-tools/bns-client",
-          },
-          {
-            from: "/links/mainnet-contracts",
-            to: "/docs/bnsx/contracts",
-          },
-        ],
-      }),
-    ],
+    // [
+    //   "@docusaurus/plugin-client-redirects",
+    //   /** @type {import('@docusaurus/plugin-client-redirects').PluginOptions} */
+    //   ({
+    //     redirects: [
+    //       {
+    //         from: "/dots/dots-faqs",
+    //         to: "/docs/dots",
+    //       },
+    //       {
+    //         from: "/dots/how-to-update-your-zonefile",
+    //         to: "/docs/dots/update-zonefile",
+    //       },
+    //       {
+    //         from: "/dots/how-to-unwrap-a-bnsx-name",
+    //         to: "/docs/dots/unwrap-bnsx",
+    //       },
+    //       {
+    //         from: "/dots/migrating-multiple-accounts",
+    //         to: "/docs/dots/migrate-multiple-accounts",
+    //       },
+    //       {
+    //         from: "/dots/renew-your-name",
+    //         to: "/docs/dots/renew",
+    //       },
+    //       {
+    //         from: "/bnsx-protocol/name-registry",
+    //         to: "/docs/bnsx/protocol-registry",
+    //       },
+    //       {
+    //         from: "/bnsx-protocol/wrapping-names",
+    //         to: "/docs/bnsx/protocol-wrapping",
+    //       },
+    //       {
+    //         from: "/bnsx-protocol/name-upgrader",
+    //         to: "/docs/bnsx/protocol-migrator",
+    //       },
+    //       {
+    //         from: "/integrate-bnsx/bns-api",
+    //         to: "/docs/developer-tools/api",
+    //       },
+    //       {
+    //         from: "/integrate-bnsx/integration-faqs",
+    //         to: "/docs/developer-tools/api",
+    //       },
+    //       {
+    //         from: "/integrate-bnsx/bns-client",
+    //         to: "/docs/developer-tools/bns-client",
+    //       },
+    //       {
+    //         from: "/links/mainnet-contracts",
+    //         to: "/docs/bnsx/contracts",
+    //       },
+    //     ],
+    //   }),
+    // ],
     async function tailwind(context, options) {
       return {
         name: "docusaurus-tailwindcss",
@@ -169,6 +169,11 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
+      metadata: [
+        {
+          "og:description": "Documentation for BNS - the Bitcoin Name System",
+        },
+      ],
       navbar: {
         title: "Bitcoin Name System",
         logo: {
