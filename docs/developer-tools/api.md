@@ -8,7 +8,7 @@ sidebar_label: BNS API
 
 [OpenAPI Documentation](https://api.bns.xyz/documentation)
 
-API Client: [`@bns-x/client`](./bns-client)
+API Client: [`@bns-x/client`](./bns-client.md)
 
 Apps and wallets that want to integrate with BNS and BNSx can use the BNS API to easily fetch name and address information.
 
@@ -16,4 +16,4 @@ To make the process of integration as easy as possible, the API provides a backw
 
 When using the BNS API, all requests will prioritize ownership information based on BNSx ownership if the name is on BNSx. This is because names on BNSx have the BNS Core name "wrapped" in a smart contract. This will allow apps to work exactly as expected, whether a name is on BNS or BNSx.
 
-Because migrating to BNSx involves [wrapping your BNS Core name](../bnsx/protocol-wrapping), using the Stacks Blockchain API endpoints won't work for users that have upgraded.
+Because migrating to BNSx involves [wrapping your BNS Core name](../bnsx/protocol-wrapping.md), using the Stacks Blockchain API endpoints won't work for users that have upgraded.

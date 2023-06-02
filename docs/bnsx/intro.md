@@ -47,13 +47,13 @@ No you can safely ignore BNSx with no downsides.
 The Dots app makes this really easy. You just follow the prompts and sign two Stacks transactions, but if you want to know what is happening under the hood:
 
 - First, you create a name wrapper. This wrapper provides a guarantee that if you own a BNSx name, you also own the equivalent BNS core name. For example, if you buy the BNSx name “satoshi.btc” on Gamma (lucky you), you also own “satoshi.btc” on BNS core.
-- Next, you use the [“name migrator"](./protocol-wrapping) contract with your wrapper to create the BNSx name and move your BNS core name into the wrapper. You also have the option of moving the BNSx name to a new address. This makes consolidating names faster and easier.
+- Next, you use the [“name migrator"](./protocol-wrapping.md) contract with your wrapper to create the BNSx name and move your BNS core name into the wrapper. You also have the option of moving the BNSx name to a new address. This makes consolidating names faster and easier.
 
 Want to learn more? Check out our docs for wrapping names and migrating:
 
-- [Wrapping names](./protocol-wrapping)
-- [Name migrator](./protocol-migrator)
+- [Wrapping names](./protocol-wrapping.md)
+- [Name migrator](./protocol-migrator.md)
 
 ### How do I reverse the upgrade process? Aka go from BNSx back to BNS?
 
-To migrate back to BNS from BNSx, check out the docs for [unwrapping a name](../dots/unwrap-bnsx).
+To migrate back to BNS from BNSx, check out the docs for [unwrapping a name](../dots/unwrap-bnsx.md).

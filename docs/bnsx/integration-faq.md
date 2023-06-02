@@ -37,8 +37,8 @@ No. This state should not be possible.
 
 If a name is minted on BNSx and your app queries BNS Core state to resolve the owner, it will resolve to a wrapper contract which is usually not desired. Most apps want to resolve the "true" owner of the BNS name and at the moment no other Stacks APIs support querying BNSx name information this way.
 
-The solution is to use a backwards compatible API, like the [BNS API](../developer-tools/api) that will resolve the name to the owner of the wrapper. If you're using the API like this your app should resolve correctly.
+The solution is to use a backwards compatible API, like the [BNS API](../developer-tools/api.md) that will resolve the name to the owner of the wrapper. If you're using the API like this your app should resolve correctly.
 
 ### Our app uses owner address of a BNS name as a recipient. Will this still work?
 
-If a name is minted on BNSx and your app queries BNS Core state to resolve the owner, it will resolve to a wrapper contract which is usually not desired. The solution is to use a backwards compatible API, like the [BNS API](../developer-tools/api), and your app should resolve correctly.
+If a name is minted on BNSx and your app queries BNS Core state to resolve the owner, it will resolve to a wrapper contract which is usually not desired. The solution is to use a backwards compatible API, like the [BNS API](../developer-tools/api.md), and your app should resolve correctly.

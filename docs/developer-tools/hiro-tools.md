@@ -11,7 +11,7 @@ sidebar_label: Hiro-provided Tools
 The [Stacks API](https://hirosystems.github.io/stacks-blockchain-api/) is an extensive API for fetching information relating to the Bitcoin and Stacks blockchains.
 
 :::caution
-The Stacks API endpoints will not work accurately for names that are using BNSx. If you're building an app that wants to support users on both BNS and BNSx, we recommend using the [BNS API](./api).
+The Stacks API endpoints will not work accurately for names that are using BNSx. If you're building an app that wants to support users on both BNS and BNSx, we recommend using the [BNS API](./api.md).
 :::
 
 Among their APIs are a number of [BNS-related endpoints](https://hirosystems.github.io/stacks-blockchain-api/#tag/Names), which allow apps to:

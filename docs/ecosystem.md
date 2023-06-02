@@ -7,7 +7,7 @@ sidebar_label: Ecosystem
 ## BNS Tools
 
 - [btc.us](https://btc.us) - register and manage .btc names
-- [Dots](https://dots.so) - manage your BNS names and migrate to BNSx. [Learn more](./dots)
+- [Dots](https://dots.so) - manage your BNS names and migrate to BNSx. [Learn more](./dots/index.mdx)
 - [BNS Vision](https://bns-vision.btc.us) - deep BNS analytics
 - [BNS Market](https://bns-market.btc.us) - up-to-date marketplace analytics
 - [price.btc.us tools](https://price.btc.us/tools.html) - transfer, renew, query, and bulk register names

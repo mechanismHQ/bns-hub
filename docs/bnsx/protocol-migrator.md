@@ -15,7 +15,7 @@ The process for minting a name through this contract involves:
 
 ### 1. Deploy a new name wrapper contract
 
-Because BNS Core enforces that each address can only own one name, it is required that each upgraded BNSx name uses a unique name wrapper contract. To learn more about how this works and why it's required, refer to the docs about [wrapping names](./protocol-wrapping).
+Because BNS Core enforces that each address can only own one name, it is required that each upgraded BNSx name uses a unique name wrapper contract. To learn more about how this works and why it's required, refer to the docs about [wrapping names](./protocol-wrapping.md).
 
 Each user must deploy an exact copy of the name wrapper contract. An example can be found on the [Stacks explorer here](https://explorer.stacks.co/txid/0x9e44b5867688aeeb0478b654eab6bce1a6b49af1ca21009ffcdd72097300a5ff?chain=mainnet).
 
