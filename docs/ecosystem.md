@@ -1,5 +1,6 @@
 ---
 sidebar_label: Ecosystem
+description: Explore all the apps, tools, marketplaces, and communities using BNS
 ---
 
 # BNS Ecosystem
