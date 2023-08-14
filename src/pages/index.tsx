@@ -61,7 +61,7 @@ function HomepageHeader() {
             <p>
               <a
                 className="text-[var(--ifm-navbar-link-color)] underline underline-offset-2 text-lg"
-                href="/docs"
+                href="/docs/intro"
               >
                 Learn about BNS
               </a>
@@ -69,7 +69,7 @@ function HomepageHeader() {
             <p>
               <a
                 className="text-[var(--ifm-navbar-link-color)] underline underline-offset-2 text-lg"
-                href="/docs"
+                href="/docs/ecosystem"
               >
                 Explore the BNS ecosystem
               </a>
