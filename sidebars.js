@@ -26,6 +26,16 @@ const sidebars = {
     "history-of-bns",
     "ecosystem",
     {
+      label: "L1 Bridge",
+      type: "category",
+      collapsed: false,
+      items: [
+        "l1-bridge/overview",
+        "l1-bridge/how-to-bridge-l1",
+        "l1-bridge/l1-api",
+      ],
+    },
+    {
       type: "category",
       collapsed: true,
       items: [

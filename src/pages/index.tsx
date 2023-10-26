@@ -30,7 +30,7 @@ function HomepageHeader() {
   const total = useTotalNames();
 
   return (
-    <div className="flex flex-col h-full grow min-h-[600px] bg-[var(--ifm-background-color)] relative home-bg">
+    <div className="flex flex-col h-full grow min-h-[600px] bg-[var(--ifm-navbar-background-color)] relative theme-bg">
       <div className="grow flex flex-col gap-20 container sm:items-center h-full">
         <div className="grow"></div>
         <div className="w-full flex flex-col sm:flex-row">
@@ -93,7 +93,7 @@ export default function Home(): JSX.Element {
   // const { siteConfig } = useDocusaurusContext();
   return (
     <div className="w-full min-h-screen flex flex-col">
-      <div className="h-12 w-full bg-[var(--ifm-navbar-background-color)] border-b-sla">
+      <div className="h-12 w-full bg-[var(--ifm-navbar-background-color)] border-b-sla home-navbar">
         <div className="flex flex-row justify-between h-11 container items-center">
           <div className="flex flex-row gap-8 h-full items-center">
             {/* <div> */}
