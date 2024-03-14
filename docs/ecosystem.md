@@ -34,7 +34,7 @@ description: Explore all the apps, tools, marketplaces, and communities using BN
 
 ## Wallets
 
-- [Hiro Wallet](https://wallet.hiro.so) - Bitcoin & Stacks app available as a browser extension and desktop app
+- [Leather Wallet](https://leather.io) - Bitcoin & Stacks app available as a browser extension and desktop app
 - [Xverse](https://xverse.app) - Bitcoin & Stacks wallet available for Chrome, iOS, and Android
 - [Ryder](https://ryder.id) - a powerful and secure hardware wallet
 
